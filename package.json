@@ -1,5 +1,5 @@
 {
-  "name": "ethr-did",
+  "name": "@extrimian/ethr-did",
   "version": "2.1.4",
   "description": "Create, manage and use did:ethr identifiers",
   "source": "src/index.ts",
