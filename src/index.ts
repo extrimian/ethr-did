@@ -9,7 +9,7 @@ import * as base64 from '@ethersproject/base64'
 import { hexlify, hexValue, isBytes } from '@ethersproject/bytes'
 import { Base58 } from '@ethersproject/basex'
 import { toUtf8Bytes } from '@ethersproject/strings'
-import { REGISTRY, EthrDidController, interpretIdentifier } from 'ethr-did-resolver'
+import { REGISTRY, EthrDidController, interpretIdentifier } from '@extrimian/ethr-did-resolver'
 import { Resolvable } from 'did-resolver'
 
 export enum DelegateTypes {

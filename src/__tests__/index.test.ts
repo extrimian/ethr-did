@@ -1,7 +1,7 @@
 import { Resolver, Resolvable } from 'did-resolver'
 import { Contract, ContractFactory } from '@ethersproject/contracts'
 import { JsonRpcProvider } from '@ethersproject/providers'
-import { getResolver } from 'ethr-did-resolver'
+import { getResolver } from '@extrimian/ethr-did-resolver'
 import { EthrDID, DelegateTypes, KeyPair } from '../index'
 import { createProvider, sleep } from './testUtils'
 import DidRegistryContract from 'ethr-did-registry'
